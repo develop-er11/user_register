@@ -1,5 +1,4 @@
 const express = require("express");
-const notes = require("./data/notes")
 const dotenv = require('dotenv')
 const connectDB = require("./config/db")
 const { notFound, errorHandler } = require("./middlewares/errorMiddleware");
